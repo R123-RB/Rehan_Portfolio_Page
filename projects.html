@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Rehan Biju Portfolio</title>
+  <meta name="description" content="Projects by Rehan Biju — Aspiring Data Scientist." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="padding-top: var(--nav-height);"> <!-- padding-top so content isn't under navbar -->
+
+  <!-- ═══════════ FIXED NAVIGATION ═══════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">RB</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#hero" class="nav-link">Home</a></li>
+      <li><a href="index.html#about" class="nav-link">About</a></li>
+      <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+      <li><a href="index.html#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link active">Projects</a></li>
+      <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+      <li><a href="index.html#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="index.html#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════ SECTION 5: PROJECTS ═══════════ -->
+  <section class="section section--light projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag anim-fade-up">What I've Built</p>
+        <h2 class="section-title anim-fade-up" style="--delay:.1s">Projects</h2>
+        <div class="section-line anim-draw"></div>
+        <p class="section-subtitle anim-fade-up" style="--delay:.2s">
+          Real-world data problems, solved from scratch — from raw data to actionable insights.
+        </p>
+      </div>
+
+      <!-- Project 1: Featured -->
+      <div class="project-featured anim-fade-up">
+        <div class="project-featured__label">Featured Project</div>
+        <div class="project-featured__body">
+          <div class="project-featured__meta">
+            <span class="project-featured__number">01</span>
+            <span class="project-featured__type">Research Study</span>
+            <span class="project-featured__date"><i data-lucide="calendar"></i> April 2025</span>
+          </div>
+          <h3 class="project-featured__title">Sleep Health &amp; Human Wellness Study</h3>
+          <p class="project-featured__desc">
+            An interdisciplinary statistical study examining the relationship between sleep patterns and overall human wellness indicators. Using R and Jamovi as primary tools, the project applied regression modelling, ANOVA, and correlation analysis to quantify how sleep quality and duration influence physical and mental health — producing results interpretable by both technical and non-technical audiences.
+          </p>
+          <div class="project-featured__outcomes">
+            <div class="proj-outcome"><span class="proj-outcome__num">1</span><p>Identified statistically significant correlations between sleep duration and key wellness metrics across the study population</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">2</span><p>Applied Jamovi's ANOVA and correlation modules to rigorously test null hypotheses and validate statistical conclusions</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">3</span><p>Produced visual reports with regression outputs and charts accessible to non-technical stakeholders</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">4</span><p>Demonstrated a full research pipeline: data collection, analysis, interpretation, and structured reporting</p></div>
+          </div>
+          <div class="project-featured__tech">
+            <span class="tech-pill anim-rubber">R</span>
+            <span class="tech-pill anim-rubber">Jamovi</span>
+            <span class="tech-pill anim-rubber">Statistical Analysis</span>
+            <span class="tech-pill anim-rubber">Regression</span>
+            <span class="tech-pill anim-rubber">Data Visualisation</span>
+          </div>
+          <!-- Project Links -->
+          <div class="project-featured__links">
+            <a href="https://github.com/R123-RB" target="_blank" rel="noopener noreferrer" class="proj-link proj-link--github">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              View on GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-featured__visual">
+          <div class="project-featured__vis-inner">
+            <div class="project-stat">
+              <span class="project-stat__value">4</span>
+              <span class="project-stat__label">Key Outcomes</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">R + Jamovi</span>
+              <span class="project-stat__label">Tools Used</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">2025</span>
+              <span class="project-stat__label">Year</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">100%</span>
+              <span class="project-stat__label">End-to-End</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Featured -->
+      <div class="project-featured project-featured--alt anim-fade-up" style="--delay:.15s">
+        <div class="project-featured__label">Featured Project</div>
+        <div class="project-featured__visual">
+          <div class="project-featured__vis-inner">
+            <div class="project-stat">
+              <span class="project-stat__value">4</span>
+              <span class="project-stat__label">Key Findings</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">Python</span>
+              <span class="project-stat__label">Primary Tool</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">EDA</span>
+              <span class="project-stat__label">Methodology</span>
+            </div>
+            <div class="project-stat">
+              <span class="project-stat__value">2025</span>
+              <span class="project-stat__label">Year</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-featured__body">
+          <div class="project-featured__meta">
+            <span class="project-featured__number">02</span>
+            <span class="project-featured__type">Data Analysis</span>
+            <span class="project-featured__date"><i data-lucide="calendar"></i> July 2025</span>
+          </div>
+          <h3 class="project-featured__title">Titanic Survival Data Analysis</h3>
+          <p class="project-featured__desc">
+            A comprehensive exploratory and inferential analysis of the Titanic dataset, investigating survival patterns across socioeconomic class, gender, age, and passenger demographics. The project combined statistical methods with data visualisation to uncover which factors most strongly predicted survival, producing structured findings and publication-quality graphics from raw historical data.
+          </p>
+          <div class="project-featured__outcomes">
+            <div class="proj-outcome"><span class="proj-outcome__num">1</span><p>Revealed clear survival disparities across passenger classes through quantified, visualised comparisons — class 1 vs class 3 survival rates clearly demonstrated</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">2</span><p>Applied feature engineering and data wrangling to handle missing values and encode categorical variables appropriately</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">3</span><p>Generated histograms, heatmaps, and box plots illustrating key survival patterns in a clear, publication-ready format</p></div>
+            <div class="proj-outcome"><span class="proj-outcome__num">4</span><p>Produced a structured analysis report translating statistical findings into accessible, well-supported conclusions</p></div>
+          </div>
+          <div class="project-featured__tech">
+            <span class="tech-pill anim-rubber">Python</span>
+            <span class="tech-pill anim-rubber">EDA</span>
+            <span class="tech-pill anim-rubber">Data Visualisation</span>
+            <span class="tech-pill anim-rubber">Statistical Methods</span>
+            <span class="tech-pill anim-rubber">Feature Engineering</span>
+          </div>
+          <!-- Project Links -->
+          <div class="project-featured__links">
+            <a href="https://github.com/R123-RB" target="_blank" rel="noopener noreferrer" class="proj-link proj-link--github">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">RB</a>
+        <p class="footer__tagline">Turning data into decisions, one insight at a time.</p>
+      </div>
+        <div class="hero__socials">
+          <a href="https://github.com/R123-RB" class="social-icon anim-pop" style="--delay:.85s" title="GitHub" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/rehan-biju-a97284244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon anim-pop" style="--delay:.95s" title="LinkedIn" aria-label="LinkedIn">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="mailto:rehanbiju2004@gmail.com" class="social-icon anim-pop" style="--delay:1.05s" title="Email" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      <p class="footer__copy">&copy; 2025 Rehan Biju. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
